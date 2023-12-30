@@ -210,7 +210,7 @@ const projects = [
   {
     name: "Portfolio",
     description:
-      "New Portfolio created using React.js, ThreeJS and tailwindCSS. I put some effort to visualize some 3D objects. Responsivenss across all devices are ensured as well as performance of the website.",
+      "New Portfolio created using React.js, ThreeJS and tailwindCSS. I put some effort to visualize some 3D objects. Responsiveness across all devices are ensured as well as performance of the website.",
     tags: [
       {
         name: "react",
