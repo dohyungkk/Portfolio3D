@@ -10,12 +10,13 @@ import {
   tailwind,
   nodejs,
   git,
+  postgresql,
   ncas,
   pmc,
   ea,
-  carrent,
-  jobit,
-  tripguide,
+  soccer_app,
+  vehicles_app,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -62,10 +63,6 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -76,6 +73,10 @@ const technologies = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
   },
   {
     name: "git",
@@ -165,16 +166,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Soccer Fullstack",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to enter data that will be fetched to the backend and also be stored in postreSQL. User inputs are shown as tables, and able to edit or delete.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: soccer_app,
+    source_code_link: "https://github.com/dohyungkk/soccer_fullstack",
+  },
+  {
+    name: "Vehicle CSV Fullstack",
+    description:
+      "Web application that is created with React and MUI frontend, Node.js backend. App consists of Login page and Vehicles page in Grid, and backend secures authenticated users to view vehicles.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vehicles_app,
+    source_code_link: "https://github.com/dohyungkk/vehicle_csv_server",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "New Portfolio created using React.js, ThreeJS and tailwindCSS. I put some effort to visualize some 3D objects. Responsivenss across all devices are ensured as well as performance of the website.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -182,50 +225,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/dohyungkk/PortfolioReact",
   },
 ];
 

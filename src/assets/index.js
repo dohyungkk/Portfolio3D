@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import resume from "./resume.pdf";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -14,14 +15,15 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import postgresql from "./tech/postgresql.png";
 
 import ea from "./company/ea.png";
 import ncas from "./company/ncas.png";
 import pmc from "./company/pmc.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import soccer_app from "./soccer_app.png";
+import vehicles_app from "./vehicles_app.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -32,6 +34,7 @@ export {
   github,
   menu,
   close,
+  resume,
   css,
   git,
   html,
@@ -39,10 +42,11 @@ export {
   nodejs,
   reactjs,
   tailwind,
+  postgresql,
   ea,
   ncas,
   pmc,
-  carrent,
-  jobit,
-  tripguide,
+  soccer_app,
+  vehicles_app,
+  portfolio,
 };

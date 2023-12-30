@@ -20,7 +20,9 @@
     "maath": "^0.10.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
     "react-parallax-tilt": "^1.7.175",
+    "react-pdf": "^7.6.0",
     "react-router-dom": "^6.18.0",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.158.0"
